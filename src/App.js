@@ -1,5 +1,5 @@
 import './App.css'
-import { UseLayoutEffect } from './HooksComponents/UseLayoutEffect'
+import { UseImperativeHandleHook } from './HooksComponents/UseImperativeHandleHook'
 
 function App() {
   return (
@@ -8,7 +8,8 @@ function App() {
       {/* <UseReducerHook /> */}
       {/* <UseEffectHook /> */}
       {/* <UseRefHook /> */}
-      <UseLayoutEffect />
+      {/* <UseLayoutEffect /> */}
+      <UseImperativeHandleHook />
     </div>
   )
 }
