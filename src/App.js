@@ -1,11 +1,13 @@
 import './App.css'
-import { UseReducerHook } from './HooksComponents/UseReducer'
+import { UseRefHook } from './HooksComponents/UseRefHook'
 
 function App() {
   return (
     <div className="App">
       {/* <UseStateHook /> */}
-      <UseReducerHook />
+      {/* <UseReducerHook /> */}
+      {/* <UseEffectHook /> */}
+      <UseRefHook />
     </div>
   )
 }
