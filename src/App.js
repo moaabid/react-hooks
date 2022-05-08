@@ -1,5 +1,5 @@
 import './App.css'
-import { UseImperativeHandleHook } from './HooksComponents/UseImperativeHandleHook'
+import { UseContextHook } from './HooksComponents/UseContextHook'
 
 function App() {
   return (
@@ -9,7 +9,8 @@ function App() {
       {/* <UseEffectHook /> */}
       {/* <UseRefHook /> */}
       {/* <UseLayoutEffect /> */}
-      <UseImperativeHandleHook />
+      {/* <UseImperativeHandleHook /> */}
+      <UseContextHook />
     </div>
   )
 }
